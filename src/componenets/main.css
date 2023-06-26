@@ -1,0 +1,81 @@
+/* main.jsx */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+button{
+    all: unset;
+    padding: 6px 16px;
+    background-color: #D01C28;
+    height: 32px;
+    color: white;
+    font-weight: 500;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin:0 auto;
+    height: 72px;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+/* mid.jsx */
+.sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 1120px;
+}
+.sec h1{
+ font-size: 60px;  
+ font-weight: 900; 
+ font-weight: bolder;
+}
+.sec p{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.sec .shop{
+    all: unset;
+    padding: 6px 16px;
+    background-color: #D01C28;
+    height: 32px;
+    color: white;
+    font-weight: 500;
+    margin-right: 20px;
+}
+.sec .cat{
+    all: unset;
+    border: 1px solid black;
+    padding: 6px 16px;
+    background-color: transparent;
+    height: 30px;
+    color: black;
+    font-weight: 500;
+}
+.sec .icon{
+    display: flex;
+}
+.sec .icon img{
+    width: 32px;
+    height: 32px;
+}
+.sec .img{
+    width: 530px;
+    height: 487.06;
+    margin-top: 20px;
+}
+.sec .img img{
+    width: 100%;
+}
